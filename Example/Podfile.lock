@@ -1,0 +1,47 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CocoaLumberjack (3.0.0):
+    - CocoaLumberjack/Default (= 3.0.0)
+    - CocoaLumberjack/Extensions (= 3.0.0)
+  - CocoaLumberjack/Core (3.0.0)
+  - CocoaLumberjack/Default (3.0.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (3.0.0):
+    - CocoaLumberjack/Default
+  - SCUtility (1.1.0):
+    - AFNetworking
+    - CocoaLumberjack
+    - SCUtility/no-arc (= 1.1.0)
+  - SCUtility/no-arc (1.1.0):
+    - AFNetworking
+    - CocoaLumberjack
+
+DEPENDENCIES:
+  - SCUtility (from `../`)
+
+EXTERNAL SOURCES:
+  SCUtility:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CocoaLumberjack: c823149bccc5519a9447aeb433be7b1212a7d6a5
+  SCUtility: 52b92595bfd3e8eeea72746687352ec9761c8974
+
+PODFILE CHECKSUM: 980fb042817aec56a59b0e5144e858f86f54ef0d
+
+COCOAPODS: 1.1.1
